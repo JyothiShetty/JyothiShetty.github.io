@@ -205,10 +205,21 @@ a:hover {
     margin-left: 60px;
 }
 
-.card {
+.about-card {
     /* background: #444; */
     border-bottom: #eece1a 5px solid;
 }
+
+.btn {
+    border-radius: 50px;
+}
+.project-card {
+    box-shadow: 0 10px 10px black ;
+    border-radius: 0 0 10px 10px;
+    color: black;
+    
+}
+
 
 @media screen and (max-width: 768px) {
 main {
