@@ -212,10 +212,16 @@ a:hover {
 
 .btn-dark {
     border-radius: 50px;
+    text-transform: uppercase;
 }
 
-.btn-dark :hover {
-    background-color: violet !important;
+
+.btn-resume {
+    /* width: 10%; */
+    color: white;
+    align-items: center;
+    text-transform: uppercase;
+    size: 20%;
 }
 
 .project-card {
@@ -226,6 +232,12 @@ a:hover {
     /* background: #444; */
 }
 
+.form {
+    font-size: 1.15rem;
+    font-weight: 600;
+    height: 100%;
+    padding-top: 80px;
+}
 
 @media screen and (max-width: 768px) {
 main {
